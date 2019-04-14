@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style type="text/css">
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
+* = {
+	margin:0;
+	border:0;
+	padding:0;
+
+}
+body {
+	background-color: #F1F4F4;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2%;
+	color: #565859;
+
+}
+#wrapper {
+	margin: 0 auto;
+	background-color: #FFF;
+}
+h2{
+	letter-spacing: :1%;
+	padding-left:2%;
+	font-weight:700;
+
+}
+p{
+	padding:2%;
+	text-align:justify;
+
+}
+img{
+	max-width: 100%;
+
+}
+.line{
+	clear: both;
+	margin: 4% auto;
+	width: 90%;
+	height: 2px;
+	background-color: #E3E9E9;
+}
+header{
+	width:90%;
+
+}
+#logo{
+	float :left;
+	margin: 2% 0 0 5%;
+	max-width:220px;
+}
+#callout {
+	float: right;
+	margin: 3% 3% 2% 0;
+	height:auto;
+	overflow:hidden;
+}
+.social{
+	list-style-type: :none;
+	margin-top :4%;
+	padding:0;
+}
+.social li{
+	display:inline;
+}
+.banner{
+	margin-bottom: :3%;
+}
+.btn{
+	float: right;
+	border-radius: 8px;
+	color:#FFF;
+	font-size: 17px;
+	background: #18A0D3;
+	padding: 8px;
+	text-decoration: none;
+}
+.button-holder{
+	float: right;
+	margin: 0 2% 4% 0;
+}
+.btn:hover{
+	background:#4EC0EB;
+	text-decoration: none;
+}
+.content{
+	text-align: center;
+	margin-bottom: 4%;
+}
+</style>
+	
+</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<div id="logo">
+					<img src="https://www.macintuts.com/wp-content/uploads/macintuts.png">
+				</div>
+				<div id="callout">
+					<ul class="social">
+						<li><a href="https://facebook.com" target="_blank"><img src="https://www.macintuts.com/wp-content/uploads/facebook.png"></a></li>
+						<li><a href="https://facebook.com" target="_blank"><img src="https://www.macintuts.com/wp-content/uploads/google-plus.png"></a></li>
+						<li><a href="https://facebook.com" target="_blank"><img src="https://www.macintuts.com/wp-content/uploads/twitter.png"></a></li>
+						<li><a href="https://facebook.com" target="_blank"><img src="https://www.macintuts.com/wp-content/uploads/youtube.png"></a></li>
+					</ul>
+				</div>
+			</header>
+			<div class="banner">
+				<img src="https://www.macintuts.com/wp-content/uploads/responsive-email.png">
+			</div>
+		</div>
+		<h2>Learn how to create cool emails this months!</h2>
+		<p>In this months newsletter we'll lern how to design cool email layouts to cusotmer informed of new features, service and what they can expect from us in the future to make them happy! </p>
+		<p>In this months newsletter we'll lern how to design cool email layouts to cusotmer informed of new features, service and what they can expect from us in the future to make them happy! </p>
+		<p>In this months newsletter we'll lern how to design cool email layouts to cusotmer informed of new features, service and what they can expect from us in the future to make them happy! </p>
+		<div class="button-holder">
+			<a class="btn" href="#"> Learn More</a>
+		</div>
+		<div class="line"></div>
+		<p class="content">MacinTuts<br>
+			(555) 555- 5555 <br>
+			1 City Road - Town - State 10000<br>
+			contact@macintuts.com</p>
+
+		</div>
+
+	</body>
+
+</html>
